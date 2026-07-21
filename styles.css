@@ -1,0 +1,130 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    background: #f7faf7;
+    color: #333;
+  }
+  
+  .topbar {
+    background: #eaf5ea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    border-bottom: 2px solid #4caf50;
+  }
+  
+  .topbar h1 {
+    color: #2e7d32;
+    margin: 0;
+  }
+  
+  nav .btn {
+    background: #4caf50;
+    color: white;
+    padding: 6px 12px;
+    margin-left: 8px;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  
+  nav .btn:hover {
+    background: #388e3c;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    gap: 20px;
+  }
+  
+  .controls {
+    width: 30%;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .mapwrap {
+    width: 70%;
+  }
+  
+  #map {
+    height: 500px;
+    width: 100%;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+  }
+  
+  .btn.primary {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .btn.primary:hover {
+    background: #43a047;
+  }
+  
+  .card {
+    background: #f8fff8;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 16px;
+    border: 1px solid #cdeccd;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background: #eaf5ea;
+    color: #2e7d32;
+    border-top: 1px solid #c8e6c9;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+
+
+/*login, register, and controls */
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  .auth-form {
+    padding: 24px;
+    max-width: 420px;
+    margin: 24px auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
